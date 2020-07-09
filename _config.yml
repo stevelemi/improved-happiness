@@ -2,10 +2,10 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: Your Awesome Site
-email: your-email@domain.com
-author: Your Name
+url: https://stevelemi.github.io/improved-happiness/
+title: Mag.a Silke Pfeifer-Mayer | Praxis für Psychotherapie
+email: therapie.pfeifer@gmail.com
+author: Mag.a Silke Pfeifer-Mayer
 description: > # "Write an awesome description for your new site here. 
   You can edit this line in _config.yml. It will appear in your document 
   head meta (for Google search results) and in your feed.xml site 
@@ -23,10 +23,10 @@ permalink: pretty
 #   3rd Party Settings    #
 # ----------------------- #
 
-social:
-  - title: twitter
-    url: https://twitter.com/baiyungroup
-  - title: github
-    url: https://github.com/BaiyunGroup/landing-page-theme
-  - title: linkedin
-    url: 
+#social:
+#  - title: twitter
+#    url: https://twitter.com/baiyungroup
+#  - title: github
+#    url: https://github.com/BaiyunGroup/landing-page-theme
+#  - title: linkedin
+#    url: 
