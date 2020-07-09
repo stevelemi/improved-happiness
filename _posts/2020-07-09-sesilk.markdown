@@ -1,0 +1,12 @@
+---
+layout: default
+img: sp.jpg
+category: Services
+title: 
+description: |
+---
+Praxis für Psychotherapie 
+Mag.a Silke Pfeifer-Mayer 
+Klinische und Gesundheitspsychologin
+Psychotherapeutin (Systemische Familientherapie)
+
