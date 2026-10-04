@@ -1,32 +1,32 @@
-# Landing Page Jekyll theme
+# Website – Praxis für Psychotherapie, Mag.a Silke Pfeifer-Mayer
 
-Jekyll theme based on [landing-page bootstrap theme ](http://startbootstrap.com/templates/landing-page/)
+Statische Website (reines HTML/CSS, keine Abhängigkeiten, keine externen Dienste).
 
-## How to use
- - Place a image in `/img/services/`
- - Create posts to display your services. Use the follow as an example:
+## Struktur
 
-```txt
----
-layout: default
-img: ipad.png
-category: Services
-title: The service title
----
-The description of this service
-```
+| Datei | Inhalt |
+|---|---|
+| `index.html` | Startseite |
+| `qualifikation.html` | Qualifikationen |
+| `berufserfahrung.html` | Berufserfahrung & Fortbildungen |
+| `kontakt.html` | Organisatorisches/Kontakt |
+| `impressum.html` | Impressum |
+| `assets/profilbild.jpg` | Profilbild (Startseite) |
+| `404.html` | Fehlerseite |
+| `assets/style.css` | Gestaltung (Farben oben unter `:root` anpassbar) |
+| `.nojekyll` | GitHub Pages liefert die Dateien unverändert aus |
 
-## Demo
-View this jekyll theme in action [here](http://baiyungroup.github.io/landing-page-theme/)
+## Veröffentlichen mit GitHub Pages
 
-## Screenshot
-![screenshot](https://raw.githubusercontent.com/baiyungroup/landing-page-theme/master/img/screenshot.png)
+1. Neues Repository anlegen und alle Dateien dieses Ordners (inkl. `.nojekyll`) in den Hauptordner hochladen.
+2. Im Repository: **Settings → Pages → Build and deployment → Source: „Deploy from a branch“**, Branch `main`, Ordner `/ (root)` → **Save**.
+3. Nach ca. 1 Minute ist die Seite unter `https://<benutzername>.github.io/<repository>/` erreichbar.
+4. Optional eigene Domain: unter **Settings → Pages → Custom domain** eintragen und beim Domain-Anbieter einen CNAME-Eintrag auf `<benutzername>.github.io` setzen.
 
-For more Jekyll details, Read [documentation](http://jekyllrb.com/). This Jekyll theme is forked from [Landing-Page Jekyll theme](https://github.com/swcool/landing-page-theme).
+## Texte ändern
 
-## License
-The contents of this repository are licensed under the [Apache
-2.0](http://www.apache.org/licenses/LICENSE-2.0.html).
+Texte direkt in der jeweiligen `.html`-Datei bearbeiten. Kopfzeile und Fußzeile sind in jeder Datei enthalten – Änderungen dort (z. B. Telefonnummer) bitte in allen Dateien vornehmen. Die Krankenkassen-Zuschüsse („Stand September 2026“) stehen in `kontakt.html`.
 
-## Version
-1.0.1
+## Hinweis
+
+Eine **Datenschutzerklärung** ist noch nicht enthalten (GitHub Pages speichert technisch IP-Adressen in Server-Logs) und sollte ergänzt werden.
