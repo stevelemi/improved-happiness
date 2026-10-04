@@ -208,7 +208,7 @@ address { font-style: normal; }
 .hero h1 { margin-bottom: .3em; }
 .portrait { margin: 0; justify-self: end; width: 100%; max-width: 360px; }
 .portrait img {
-  display: block; width: 100%; height: auto; border-radius: 22px;
+  display: block; width: 75%; height: auto; border-radius: 22px;
   box-shadow: 0 18px 40px -18px rgba(46, 52, 48, .35);
 }
 @media (max-width: 760px) {
